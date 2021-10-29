@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js --config webpack.js",
+    "watch": "node ./node_modules/webpack/bin/webpack.js --config webpack.js --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
